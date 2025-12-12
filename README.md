@@ -1,0 +1,97 @@
+# AMD_Robotics_Hackathon_2025_[TRI_ROBOTIQUE_FIXE]
+
+## Team Information
+
+**Team:** *Team4, Préhistorique, Ylan Nabti, Yihuan Zhang*
+
+**Summary:** *Tri-Robotique Fixe incorporates a vision-based robotic manipulation system to automate the selective waste sorting of a stationary pile of mixed garbage into dedicated recycling bins. Utilizing a machine arm and an AI-powered visual recognition model, the system precisely identifies, localizes, and separates diverse waste items (e.g., plastics, metals, paper, glass) from a fixed, cluttered environment, ensuring high purity and compliance with French sorting rules (consignes de tri).*
+
+*< Images or video demonstrating your project >*
+
+## Submission Details
+
+### 1. Mission Description
+- *Real world application of your mission*
+
+### 2. Creativity
+- **The novel or unique in our approach：**
+    * **Clutter-Robust VLA for Isolation:** Our system employs a Vision-Language-Action (VLA) model uniquely trained to handle extreme clutter and occlusion. It is designed to prioritize picking the **most accessible and highest-priority item** in a dense pile. The action output includes a necessary **pre-grasp displacement** to slightly isolate a target item before the final grasp.
+    * **Semantic Sorting Policy:** The VLA model integrates French sorting rules directly into its decision-making. For instance, when presented with a choice, it prioritizes removing a highly valuable material (e.g., aluminum cans) over low-value plastic, demonstrating a sort of 'economic awareness.' 
+
+| Destination Category (Bin Color/Type) | Specific Item Types to Be Identified | Robot Recognition Challenge |
+| :--- | :--- | :--- |
+| **Recyclable Packaging & Paper** (**Yellow Bin**) | **All Plastic Packaging** (bottles, pots, films, tubes, trays, bags), **All Metal Packaging** (cans, aerosols, capsules, aluminum foil), **All Cardboard/Paper** (boxes, newspapers, magazines, beverage bricks). | **Clutter & Occlusion:** Handling diverse shapes of soft plastics and thin foils within a pile. Must confirm packaging is *empty*. **Rule Recognition:** Identification of the **Triman logo** and text instructions is a key differentiator.  |
+| **Glass Containers** (**White/Green Bin**) | **Glass Bottles** (wine, oil, beverage), **Glass Jars** (jam, sauces). | **Exclusion:** Must correctly identify and *exclude* non-container glass (e.g., drinking glasses, ceramic, porcelain, mirrors), placing them in the non-recyclable bin. |
+| **Bio-Waste/Compost** (**Dedicated Brown/Green Bin**) | **Food Scraps** (fruit/vegetable peels, coffee grounds, tea bags), **Certain Natural Waste** (leaves, small garden cuttings). | **Handling & Contamination:** Dealing with wet, irregular, and often sticky organic materials. This category is mandatory since 2024. |
+| **Non-Recyclable Household Waste** (**Green/Black Bin**) | **Contaminated Paper** (oily pizza boxes, heavily soiled napkins), **Hygiene Products** (tissues, diapers, cotton pads), **Specific Glass/Ceramics** (broken dishes, pottery, mirrors, light bulbs), **Certain Single-use Items**. | **Contamination Detection:** Must classify soiled items that were *originally* recyclable (e.g., paper) into the general waste stream. |
+
+---
+- **Innovation in design, methodology, or application:**
+    * **Depth-Guided Decluttering:** We use a high-fidelity depth camera to generate a point cloud of the stationary pile. Our methodology uses the depth information not only for grasp-pose estimation but also to identify **stable pick points** that minimize disturbance to the surrounding items, improving the overall sorting sequence.
+    * **Efficiency Metric for Stationary Piles:** We introduce an innovative metric for stationary sorting efficiency that measures not only the items successfully sorted but also the **number of necessary attempts (re-grasps) per item** and the **reduction in clutter density** over time.
+
+### 3. Technical implementations
+- *Teleoperation / Dataset capture*
+    - *<Image/video of teleoperation or dataset capture>*
+- *Training*
+- *Inference*
+    - *<Image/video of inference eval>*
+
+### 4. Ease of use
+- *How generalizable is your implementation across tasks or environments?*
+- *Flexibility and adaptability of the solution*
+- *Types of commands or interfaces needed to control the robot*
+
+## Additional Links
+*For example, you can provide links to:*
+
+- *Link to a video of your robot performing the task*
+- *URL of your dataset in Hugging Face*
+- *URL of your model in Hugging Face*
+- *Link to a blog post describing your work*
+
+## Code submission
+
+This is the directory tree of this repo, you need to fill in the `mission` directory with your submission details.
+
+```terminal
+AMD_Robotics_Hackathon_2025_ProjectTemplate-main/
+├── README.md
+└── mission
+    ├── code
+    │   └── <code and script>
+    └── wandb
+        └── <latest run directory copied from wandb of your training job>
+```
+
+
+The `latest-run` is generated by wandb for your training job. Please copy it into the wandb sub directory of you Hackathon Repo.
+
+The whole dir of `latest-run` will look like below:
+
+```terminal
+$ tree outputs/train/smolvla_so101_2cube_30k_steps/wandb/
+outputs/train/smolvla_so101_2cube_30k_steps/wandb/
+├── debug-internal.log -> run-20251029_063411-tz1cpo59/logs/debug-internal.log
+├── debug.log -> run-20251029_063411-tz1cpo59/logs/debug.log
+├── latest-run -> run-20251029_063411-tz1cpo59
+└── run-20251029_063411-tz1cpo59
+    ├── files
+    │   ├── config.yaml
+    │   ├── output.log
+    │   ├── requirements.txt
+    │   ├── wandb-metadata.json
+    │   └── wandb-summary.json
+    ├── logs
+    │   ├── debug-core.log -> /dataset/.cache/wandb/logs/core-debug-20251029_063411.log
+    │   ├── debug-internal.log
+    │   └── debug.log
+    ├── run-tz1cpo59.wandb
+    └── tmp
+        └── code
+```
+
+**NOTES**
+
+1. The `latest-run` is the soft link, please make sure to copy the real target directory it linked with all sub dirs and files.
+2. Only provide (upload) the wandb of your last success pre-trained model for the Mission.
