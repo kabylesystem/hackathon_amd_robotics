@@ -18,12 +18,11 @@
     * **Clutter-Robust VLA for Isolation:** Our system employs a Vision-Language-Action (VLA) model uniquely trained to handle extreme clutter and occlusion. It is designed to prioritize picking the **most accessible and highest-priority item** in a dense pile. The action output includes a necessary **pre-grasp displacement** to slightly isolate a target item before the final grasp.
     * **Semantic Sorting Policy:** The VLA model integrates French sorting rules directly into its decision-making. For instance, when presented with a choice, it prioritizes removing a highly valuable material (e.g., aluminum cans) over low-value plastic, demonstrating a sort of 'economic awareness.' 
 
-| Destination Category (Bin Color/Type) | Specific Item Types to Be Identified | Robot Recognition Challenge |
-| :--- | :--- | :--- |
-| **Recyclable Packaging & Paper** (**Yellow Bin**) | **All Plastic Packaging** (bottles, pots, films, tubes, trays, bags), **All Metal Packaging** (cans, aerosols, capsules, aluminum foil), **All Cardboard/Paper** (boxes, newspapers, magazines, beverage bricks). | **Clutter & Occlusion:** Handling diverse shapes of soft plastics and thin foils within a pile. Must confirm packaging is *empty*. **Rule Recognition:** Identification of the **Triman logo** and text instructions is a key differentiator.  |
-| **Glass Containers** (**White/Green Bin**) | **Glass Bottles** (wine, oil, beverage), **Glass Jars** (jam, sauces). | **Exclusion:** Must correctly identify and *exclude* non-container glass (e.g., drinking glasses, ceramic, porcelain, mirrors), placing them in the non-recyclable bin. |
-| **Bio-Waste/Compost** (**Dedicated Brown/Green Bin**) | **Food Scraps** (fruit/vegetable peels, coffee grounds, tea bags), **Certain Natural Waste** (leaves, small garden cuttings). | **Handling & Contamination:** Dealing with wet, irregular, and often sticky organic materials. This category is mandatory since 2024. |
-| **Non-Recyclable Household Waste** (**Green/Black Bin**) | **Contaminated Paper** (oily pizza boxes, heavily soiled napkins), **Hygiene Products** (tissues, diapers, cotton pads), **Specific Glass/Ceramics** (broken dishes, pottery, mirrors, light bulbs), **Certain Single-use Items**. | **Contamination Detection:** Must classify soiled items that were *originally* recyclable (e.g., paper) into the general waste stream. |
+| Target Category | Item Descriptions |
+| :--- | :--- |
+| **1. Glass** | **Glass Containers:** Glass Bottles (wine, oil, beverage), Glass Jars (jam, sauces). |
+| **2. Plastic** | **All Plastic Packaging:** Plastic bottles, pots, films, tubes, trays, bags. |
+| **3. Paper** | **All Cardboard/Paper:** Boxes, newspapers, magazines, office paper. |
 
 ---
 - **Innovation in design, methodology, or application:**
