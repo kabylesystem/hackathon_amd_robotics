@@ -18,7 +18,7 @@ Mission 2 is our creative project: **Selective Waste Sorting** (Glass, Plastic, 
 ## Demo Videos
 
 ### Mission 1: Block Pick and Place
-gif here
+https://images-ext-1.discordapp.net/external/kSjh7-C2JdR-kJGkcu8lDvjkKOvF-wS6Qbh14lXeUq0/https/media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmc5bHg0NTNqenk3NnJ1eTFtdWtxazExNmY4b2cxb3h0M3RwZmVpbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/duJAnwM1e9s6PIisBN/giphy.gif?width=540&height=960
 
 
 
@@ -27,6 +27,7 @@ Add your mission 2 video here, ideally showing:
 - Successful attempts
 - Typical failure modes
 - One run with a retry / recovery behavior (if any)
+https://media.discordapp.net/attachments/1447663665187913788/1449759082771779695/mission2_gif.gif?ex=694010dc&is=693ebf5c&hm=975ca5025b6e44dd6a39a4ecc424a93fd804cc5fde740346057fc1cd2295d414&=&width=640&height=1136
 
 ---
 
