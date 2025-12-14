@@ -16,14 +16,14 @@ Mission 2 is our creative project: **Selective Waste Sorting** (Glass, Plastic, 
 ## Demo Videos
 
 ### Mission 1: Block Pick and Place
-https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmc5bHg0NTNqenk3NnJ1eTFtdWtxazExNmY4b2cxb3h0M3RwZmVpbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/duJAnwM1e9s6PIisBN/giphy.gif
+https://images-ext-1.discordapp.net/external/kSjh7-C2JdR-kJGkcu8lDvjkKOvF-wS6Qbh14lXeUq0/https/media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmc5bHg0NTNqenk3NnJ1eTFtdWtxazExNmY4b2cxb3h0M3RwZmVpbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/duJAnwM1e9s6PIisBN/giphy.gif?width=540&height=960
 
 ### Mission 2: Waste Sorting Attempts + Failure Analysis
 Add your mission 2 video here, ideally showing:
 - Successful attempts
 - Typical failure modes
-- One run with a retry / recovery behavior (if any)
-https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDA4b2Jpc280aWE0M3F5Y3RiZThvNnI2cG05N2F1d2tmbjJ2a2owZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CUOBmwFE2Xnih3HSRy/giphy.gif
+- One run with a retry / recovery behavior (if any)/
+https://images-ext-1.discordapp.net/external/-ec4hnaqH33t3JD56qdYQ58XKVbf0pZmi4mkQnFOWvU/https/media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDA4b2Jpc280aWE0M3F5Y3RiZThvNnI2cG05N2F1d2tmbjJ2a2owZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CUOBmwFE2Xnih3HSRy/giphy.gif?width=508&height=900
 ---
 
 ## Mission 1
