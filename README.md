@@ -25,7 +25,6 @@ Add your mission 2 video here, ideally showing:
 - Successful attempts
 - Typical failure modes
 - One run with a retry / recovery behavior (if any)
-
 https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDA4b2Jpc280aWE0M3F5Y3RiZThvNnI2cG05N2F1d2tmbjJ2a2owZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CUOBmwFE2Xnih3HSRy/giphy.gif
 ---
 
