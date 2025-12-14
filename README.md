@@ -101,7 +101,7 @@ This makes errors easier to attribute to:
 ## Technical Implementation
 
 ### Training
-- **Policy:** ACT (Action Chunking with Transformers) via LeRobot
+- **Policy:** ACT (Action Chunking with Transformers) & SmolVLA via LeRobot
 - **Inputs:** single-view RGB stream + robot joint values
 - **Approach:** frozen visual encoder + fine-tune action decoder on custom demos
 
