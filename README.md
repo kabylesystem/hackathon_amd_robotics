@@ -13,7 +13,7 @@
 ### Mission 1: Block Pick and Place (Familiarization)
 
 We used the unified official task to complete a block pick and place task. This task helped us quickly familiarize ourselves with the **LeRobot software stack** and the **SO-101 follower/leader arm system** . This provided essential insights into the model training and inference pipeline necessary for Mission 2.
-<img width="320" height="568" alt="image" src="https://github.com/user-attachments/assets/b495c2f8-d4ef-4012-9d33-51017926e52c" />
+<img width="270" height="480" alt="image" src="https://github.com/user-attachments/assets/0db15cb3-5ebc-4c0b-b84f-d68cefd93f89" />
 
 ### Mission 2: Selective Waste Sorting via Few-Shot Action Learning (Creative Project)
 
