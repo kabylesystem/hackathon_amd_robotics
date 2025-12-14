@@ -27,7 +27,7 @@ Add your mission 2 video here, ideally showing:
 - Successful attempts
 - Typical failure modes
 - One run with a retry / recovery behavior (if any)
-https://media.discordapp.net/attachments/1447663665187913788/1449759082771779695/mission2_gif.gif?ex=694010dc&is=693ebf5c&hm=975ca5025b6e44dd6a39a4ecc424a93fd804cc5fde740346057fc1cd2295d414&=&width=640&height=1136
+https://images-ext-1.discordapp.net/external/-ec4hnaqH33t3JD56qdYQ58XKVbf0pZmi4mkQnFOWvU/https/media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDA4b2Jpc280aWE0M3F5Y3RiZThvNnI2cG05N2F1d2tmbjJ2a2owZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CUOBmwFE2Xnih3HSRy/giphy.gif?width=508&height=900
 
 ---
 
