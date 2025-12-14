@@ -1,7 +1,5 @@
 # AMD Robotics Hackathon 2025: Selective Waste Sorting via Few Shot Action Learning (Fixed Setup)
 
-Note: Videos may take a moment to load. Please allow time for buffering.
-
 ## Team Information
 
 **Team:** Team4, Préhistorique  
@@ -35,13 +33,13 @@ We used the official unified task to complete block pick and place. This helped 
 - SO-101 follower/leader arm system
 - Dataset format and evaluation loop
 
-### Mission 1 Delivery URLs
-- Dataset: https://huggingface.co/datasets/nalyda/picking_merged)
-- Model: https://huggingface.co/docs/lerobot/en/act)
-
 ---
 
 ## Mission 2: Selective Waste Sorting
+
+Delivery URLs : 
+- Dataset: https://huggingface.co/datasets/nalyda/picking_merged)
+- Model: https://huggingface.co/docs/lerobot/en/act)
 
 ### Mission Description
 Real world motivation: selective sorting is expensive because collecting large robot-specific datasets is costly and time-consuming.
