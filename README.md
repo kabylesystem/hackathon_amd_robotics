@@ -3,7 +3,6 @@
 ## Team Information
 
 **Team:** Team4, Préhistorique  
-**Members:** Ylan Nabti, Kuan-Lun Huang, Yihuan Zhang
 
 **Summary**  
 This repository contains our work for the AMD Robotics Hackathon 2025.
